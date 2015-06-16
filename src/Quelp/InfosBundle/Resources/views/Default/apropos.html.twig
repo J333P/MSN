@@ -1,0 +1,49 @@
+{% extends "QuelpImageBundle::layout.html.twig" %}
+
+{% block title %} Apropos {% endblock %}
+
+{% block content %}
+
+
+<div class="col-xs-12 col-md-8 col-md-offset-2" style="margin-top: 20px">
+
+<!-- Debut du contenu titre + nav -->
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h2>A propos</h2>
+            </div>
+        </div> </div>
+    <br><br>
+
+    <p style ="margin-left:30px; margin-right:30px; margin-bottom:40px ">
+        <br><strong><em>&nbsp;&nbsp;LE RESEAU EPSILON</em></strong> est un réseau social créé en 2015 qui vous permet de chercher des amis ou des services via des utilisateurs du réseau.
+        Ce réseau vous donne la possibilité d'échanger, mais aussi d'informer ou d'inspirer d'autres utilisateurs.
+        <br>En tant que membre d'Epsilon, vous pouvez aussi partager, regarder et commenter vos publications ou
+        celles de votre cercle d'amis; ces publications peuvent être sous forme de citations écrites comme elles peuveut être des images ou des vidéos.
+
+    <address style ="margin-left:50px; margin-right:15px; margin-bottom:20px ">
+        <strong>Contactez-nous</strong>
+        <a href="mailto:#" style ="margin-left:40px">jnpr.lh@gmail.com</a>
+    </address>
+    <div class="" style ="margin-left:50px; margin-right:15px;">
+        <strong></strong>
+        <br>
+
+
+    </div>
+    </p>
+    <div align="center" class="row" style ="margin-left:50px; margin-right:15px; margin-bottom:35px">
+        <div class="col-xs-6 col-md-2">
+            <a href="#" class="thumbnail">
+                <img src="{{asset('bundles/front/img/jeep.png')}}" data-src="holder.js/100%x180" alt="...">
+            </a>
+            <h6 align="center">Jean-Pierre</h6>
+        </div>
+    </div>
+</div>
+</div>
+
+
+{% endblock %}
